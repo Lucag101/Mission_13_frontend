@@ -1,5 +1,6 @@
 import Banner from './App';
 
+// simple page to take us to bacon sale websites. In future, podcasts may be added and explained.
 function Podcasts() {
   return (
     <div className="text-center">
