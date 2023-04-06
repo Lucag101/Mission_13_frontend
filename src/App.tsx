@@ -7,7 +7,7 @@ import MovieList from './MovieList';
 import Podcasts from './Podcasts';
 import Navbar from './Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+//old function. Not in use now
 function CountButton() {
   const [count, setCount] = useState(0);
   const incrementBy1 = () => setCount(count + 1);
@@ -20,7 +20,7 @@ function CountButton() {
     </div>
   );
 }
-
+//old function. Not in use now
 function Counter(props: any) {
   return (
     <div>
@@ -29,11 +29,11 @@ function Counter(props: any) {
     </div>
   );
 }
-
+//old function. Not in use now
 function Amount(props: any) {
   return <h4>Count: {props.num}</h4>;
 }
-
+//old function. Not in use now
 class Banner extends React.Component {
   render() {
     return (
@@ -82,7 +82,7 @@ class Conclusion extends React.Component {
     return <h2>Give some a look</h2>;
   }
 }
-
+//main app that displays whichever route user clicks on
 function App() {
   const [count, setCount] = useState(0);
 
