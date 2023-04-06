@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+//navbar below wich allows switching between pages
 const navbar = () => {
   return (
     <div className="row">
